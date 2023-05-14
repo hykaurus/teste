@@ -1,18 +1,16 @@
 body
     {
-        justify-content: center;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
         text-align: center;
         align-items: center;
-        background-size: auto;
         background-image: url("fnd.jpeg");
     }
 .box1
     {         
         border: 2px solid grey;
         border-radius: 10px;
-        gap: 20px;
         backdrop-filter: blur(10px);
         background-color: rgba(53, 42, 42, 0.3);
         width: 300px;
@@ -22,20 +20,18 @@ body
 .botao
     {
         border-radius: 50px;
-        border: 2px;
-        margin: 10px;
+        margin: 50px;
     }
 .botao button
     {
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
         transition: 0.4s;
         background-color: rgb(47, 42, 53);
         border-radius: 45px;
         width: 100px;
         height: 40px;
-        border-color: rgb(98, 112, 105);
-        border-style: hidden;
+        border-style: none;
         color: rgb(255, 255, 255);
-        text-transform: uppercase;
         cursor: pointer;
     }
 .botao button:hover
@@ -49,8 +45,59 @@ body
     }
 .box1 iframe
     {
+        box-shadow: rgb(73, 1, 1) 0px 20px 30px -10px;
+        background: linear-gradient(150deg, rgb(139, 72, 72) 0%,rgb(0, 0, 0) 100%);
         width: 280px;
+        padding-bottom: 20px;
         margin: 10px 5px;
-        border-radius: 10px;
-        
+        border-radius: 15px;
     }
+.circle
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: radial-gradient(circle, rgb(255, 255, 255) 0%,rgb(0, 0, 0) 100%);
+        width: 150px;
+        height: 50px ;
+        border-radius:100px;
+    }
+.circle div
+    {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    background: radial-gradient(circle, rgb(253, 253, 253) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 10px;
+    }
+.circle input
+{
+    border: none;
+    border-radius: 45px;
+    width: 140px;
+    height: 45px;
+    background: none;
+    transition: 0.2s;
+    backdrop-filter: blur(10px);
+}
+form
+{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.circle input:hover
+{
+    box-shadow: slateblue;
+    width: 160px;
+    padding: 10%;
+    border: solid grey 2px;
+}
+.circle:hover
+{
+    animation: 1s;
+    background: none;
+}
