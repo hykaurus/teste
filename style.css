@@ -10,6 +10,7 @@ body
     }
 .box
     {         
+        border: 2px solid grey;
         border-radius: 10px;
         gap: 20px;
         backdrop-filter: blur(10px);
