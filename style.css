@@ -1,5 +1,6 @@
 body
     {
+        justify-content: center;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -10,7 +11,7 @@ body
 .box
     {         
         border-radius: 10px;
-        justify-content: center;
+        gap: 20px;
         backdrop-filter: blur(10px);
         background-color: rgba(53, 42, 42, 0.3);
         width: 300px;
@@ -25,6 +26,7 @@ body
     }
 .botao button
     {
+        transition: 0.4s;
         background-color: rgb(47, 42, 53);
         border-radius: 45px;
         width: 100px;
@@ -32,4 +34,22 @@ body
         border-color: rgb(98, 112, 105);
         border-style: hidden;
         color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+.botao button:hover
+    {
+        transition: 0.2s;
+        background-color: rgb(25, 21, 32);
+        color: rgb(185, 183, 183);
+        width: 120px;
+        height: 48px;
+        font-size: 100%;
+    }
+.box iframe
+    {
+        width: 280px;
+        margin: 10px 5px;
+        border-radius: 10px;
+        
     }
