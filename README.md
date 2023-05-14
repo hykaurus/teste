@@ -1,1 +1,1 @@
-#tô praticando umas coisa ae👌
+tô praticando umas coisa ae👌
