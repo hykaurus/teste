@@ -5,7 +5,8 @@ body
         justify-content: center;
         text-align: center;
         align-items: center;
-        background-image: url("fnd.jpeg");
+        background-image: url("O4.jpeg");/*
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;*/
     }
 .box1
     {         
@@ -63,23 +64,22 @@ body
         height: 50px ;
         border-radius:100px;
     }
-.circle div
+.circle1
     {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
-    height: 50px;
-    width: 100px;
-    background: radial-gradient(circle, rgb(253, 253, 253) 0%, rgba(148,187,233,1) 100%);
-    border-radius: 10px;
+    border-radius: 45px;
+    height: 52px;
+    width: 150px;
+    background-color: rgb(75, 69, 69);
     }
-.circle input
+.circle1 input
 {
-    border: none;
+    border: solid 1px rgb(41, 41, 68);
     border-radius: 45px;
     width: 140px;
-    height: 45px;
+    height: 50px;
     background: none;
     transition: 0.2s;
     backdrop-filter: blur(10px);
@@ -90,15 +90,23 @@ form
     display: flex;
     align-items: center;
 }
-.circle input:hover
+.circle1 input:hover
 {
-    box-shadow: slateblue;
     width: 160px;
-    padding: 10%;
-    border: solid grey 2px;
+    padding: 10%;    
 }
+/*
 .circle:hover
-{
+{   border: solid grey 2px;
     animation: 1s;
     background: none;
+}*/
+.box1 p
+{
+    color: rgb(255, 255, 255);
+    border-radius:0px 0px 20px  ;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(42, 48, 53);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
