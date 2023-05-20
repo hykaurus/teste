@@ -5,11 +5,12 @@ body
         justify-content: center;
         text-align: center;
         align-items: center;
-        background-image: url("O4.jpeg");/*
+        background-image: url("./img/01.jpg");/*
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;*/
     }
 .box1
     {         
+        box-shadow: rgb(0, 0, 0) 0px 19px 38px, rgb(0, 0, 0) 0px 20px 38px;
         border: 2px solid grey;
         border-radius: 10px;
         backdrop-filter: blur(10px);
@@ -82,7 +83,9 @@ body
     height: 50px;
     background: none;
     transition: 0.2s;
+    font-size: 12px;
     backdrop-filter: blur(10px);
+    justify-content: center;
 }
 form
 {
@@ -93,7 +96,9 @@ form
 .circle1 input:hover
 {
     width: 160px;
-    padding: 10%;    
+    padding: 10%;   
+    font-size: 14px; /*
+    color: aqua;*/
 }
 /*
 .circle:hover
@@ -103,10 +108,25 @@ form
 }*/
 .box1 p
 {
+    border-left: 10px solid rgb(193, 198, 247);
+    border-bottom: 4px solid rgb(46, 42, 42);
     color: rgb(255, 255, 255);
-    border-radius:0px 0px 20px  ;
+    border-radius:5px 5px 50px  5px;
     width: 200px;
     height: 30px;
-    background-color: rgb(42, 48, 53);
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color: rgb(92, 123, 149);
+    box-shadow: rgb(0, 0, 0) 0px 19px 38px, rgba(0, 0, 0, 0.357) 0px 15px 12px;
+}
+.aprcr
+{
+    display: flex;
+    justify-content: center;
+    animation-duration: 5s;
+    border-radius: 0px 50px 50px 0px;
+    backdrop-filter: blur(10px);
+    width: 100px;
+    height: 30px;
+    border: 3px solid;
+    align-items: center;
+
 }
