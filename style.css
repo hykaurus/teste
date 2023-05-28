@@ -109,13 +109,13 @@ form
 .box1 p
 {
     border-left: 10px solid rgb(193, 198, 247);
-    border-bottom: 4px solid rgb(46, 42, 42);
     color: rgb(255, 255, 255);
     border-radius:5px 5px 50px  5px;
     width: 200px;
     height: 30px;
     background-color: rgb(92, 123, 149);
-    box-shadow: rgb(0, 0, 0) 0px 19px 38px, rgba(0, 0, 0, 0.357) 0px 15px 12px;
+    box-shadow: inset  rgba(0, 0, 0, 0.406) -15px -15px 15px ,rgba(0, 0, 0, 0.49) 10px 5px 15px;
+    
 }
 .aprcr
 {
